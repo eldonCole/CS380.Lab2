@@ -88,6 +88,7 @@ class BinarySearchTree{
          return true;
       }
       return key < root.value ? find(root.left, key) : find(root.right, key);
+      
    }
    
    
