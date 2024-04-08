@@ -88,7 +88,7 @@ class BinarySearchTree{
          return true;
       }
       return key < root.value ? find(root.left, key) : find(root.right, key);
-      
+
    }
    
    
@@ -102,7 +102,8 @@ class BinarySearchTree{
       while(current.left != null){
          current = current.left;
       }
-      return current.value;   }
+      return current.value;
+   }
   
   
   
