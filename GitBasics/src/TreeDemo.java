@@ -58,7 +58,8 @@ class BinarySearchTree{
          inOrderTraversal(root.left);
          System.out.print(root.value + " ");
          inOrderTraversal(root.right);
-      }   }
+      }
+   }
    
    
    
