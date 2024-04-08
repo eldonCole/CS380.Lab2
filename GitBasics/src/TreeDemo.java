@@ -71,7 +71,8 @@ class BinarySearchTree{
          postOrderTraversal(root.left);
          postOrderTraversal(root.right);
          System.out.print(root.value + " ");
-      }   }
+      }
+   }
    
    
    
